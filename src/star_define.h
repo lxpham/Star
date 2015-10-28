@@ -28,7 +28,7 @@
 #define GPIO_IN_2 		BBB_GPIO2_13
 #define GPIO_IN_3 		BBB_GPIO2_25
 #define GPIO_IN_4 		BBB_GPIO2_24
-#define GPIO_IN_5		BBB_GPIO2_29
+#define GPIO_IN_5		BBB_GPIO1_29
 #define GPIO_IN_6		BBB_GPIO1_1
 #define GPIO_IN_7		BBB_GPIO1_5
 #define GPIO_IN_8		BBB_GPIO1_31

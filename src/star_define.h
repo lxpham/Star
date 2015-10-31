@@ -40,20 +40,20 @@
 #define GPIO_IN_14		BBB_GPIO0_26  /*P8_14*/   
 
 /*GPIO Output definition*/
-#define GPIO_OUT_0		BBB_GPIO2_6
-#define GPIO_OUT_1		BBB_GPIO2_8
-#define GPIO_OUT_2		BBB_GPIO2_10
-#define GPIO_OUT_3		BBB_GPIO2_12
-#define GPIO_OUT_4		BBB_GPIO2_23
-#define GPIO_OUT_5		BBB_GPIO2_22
-#define GPIO_OUT_6		BBB_GPIO1_0
-#define GPIO_OUT_7		BBB_GPIO1_4
-#define GPIO_OUT_8		BBB_GPIO1_30
-#define GPIO_OUT_9		BBB_GPIO0_27
-#define GPIO_OUT_10		BBB_GPIO1_15
-#define GPIO_OUT_11		BBB_GPIO1_13
-#define GPIO_OUT_12		BBB_GPIO1_2
-#define GPIO_OUT_13		BBB_GPIO1_6
+#define GPIO_OUT_0		BBB_GPIO2_11  /*P8_42*/
+#define GPIO_OUT_1		BBB_GPIO2_10  /*P8_41*/
+#define GPIO_OUT_2		BBB_GPIO2_13  /*P8_40*/
+#define GPIO_OUT_3		BBB_GPIO2_12  /*P8_39*/
+#define GPIO_OUT_4		BBB_GPIO2_23  /*P8_29*/
+#define GPIO_OUT_5		BBB_GPIO2_25  /*P8_30*/
+#define GPIO_OUT_6		BBB_GPIO2_22  /*P8_27*/
+#define GPIO_OUT_7		BBB_GPIO2_7   /*P8_46*/
+#define GPIO_OUT_8		BBB_GPIO2_6   /*P8_45*/
+#define GPIO_OUT_9		BBB_GPIO2_9   /*P8_44*/
+#define GPIO_OUT_10		BBB_GPIO2_8   /*P8_43*/
+#define GPIO_OUT_11		BBB_GPIO0_9   /*P8_33*/
+#define GPIO_OUT_12		BBB_GPIO2_17  /*P8_34*/
+#define GPIO_OUT_13		BBB_GPIO0_10  /*P8_31*/
 
 /*ADC definition*/
 #define ADC_IN_0		BBB_AIN0

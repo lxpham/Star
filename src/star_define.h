@@ -23,21 +23,21 @@
 #include "bbb_define.h"
 
 /*GPIO Input definition*/
-#define GPIO_IN_0 		BBB_GPIO2_9
-#define GPIO_IN_1 		BBB_GPIO2_11
-#define GPIO_IN_2 		BBB_GPIO2_13
-#define GPIO_IN_3 		BBB_GPIO2_25
-#define GPIO_IN_4 		BBB_GPIO2_24
-#define GPIO_IN_5		BBB_GPIO1_29
-#define GPIO_IN_6		BBB_GPIO1_1
-#define GPIO_IN_7		BBB_GPIO1_5
-#define GPIO_IN_8		BBB_GPIO1_31
-#define GPIO_IN_9		BBB_GPIO2_1
-#define GPIO_IN_10		BBB_GPIO1_14
-#define GPIO_IN_11		BBB_GPIO0_26
-#define GPIO_IN_12		BBB_GPIO1_12
-#define GPIO_IN_13		BBB_GPIO1_3
-#define GPIO_IN_14		BBB_GPIO1_7
+#define GPIO_IN_0 		BBB_GPIO0_23  /*P8_13*/
+#define GPIO_IN_1 		BBB_GPIO1_14  /*P8_16*/
+#define GPIO_IN_2 		BBB_GPIO1_15  /*P8_15*/
+#define GPIO_IN_3 		BBB_GPIO2_1   /*P8_18*/
+#define GPIO_IN_4 		BBB_GPIO2_3   /*P8_8*/
+#define GPIO_IN_5		  BBB_GPIO2_2   /*P8_7*/
+#define GPIO_IN_6		  BBB_GPIO2_4   /*P8_10*/
+#define GPIO_IN_7		  BBB_GPIO2_5   /*P8_9*/
+#define GPIO_IN_8		  BBB_GPIO0_27  /*P8_17*/
+#define GPIO_IN_9		  BBB_GPIO0_22  /*P8_19*/   
+#define GPIO_IN_10		BBB_GPIO1_29  /*P8_26*/
+#define GPIO_IN_11		BBB_GPIO2_28  /*P8_28*/
+#define GPIO_IN_12		BBB_GPIO1_12  /*P8_12*/
+#define GPIO_IN_13		BBB_GPIO1_13  /*P8_13*/ 
+#define GPIO_IN_14		BBB_GPIO0_26  /*P8_14*/   
 
 /*GPIO Output definition*/
 #define GPIO_OUT_0		BBB_GPIO2_6

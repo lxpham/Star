@@ -36,7 +36,7 @@
 #define GPIO_IN_10		BBB_GPIO1_29  /*P8_26*/
 #define GPIO_IN_11		BBB_GPIO2_24  /*P8_28*/
 #define GPIO_IN_12		BBB_GPIO1_12  /*P8_12*/
-#define GPIO_IN_13		BBB_GPIO1_13  /*P8_13*/ 
+#define GPIO_IN_13		BBB_GPIO0_13  /*P8_13*/ 
 #define GPIO_IN_14		BBB_GPIO0_26  /*P8_14*/   
 
 /*GPIO Output definition*/

@@ -60,9 +60,9 @@
 #define ADC_IN_1		BBB_AIN1        /*P9_40*/
 #define ADC_IN_2		BBB_AIN2        /*P9_37*/
 #define ADC_IN_3		BBB_AIN3        /*P9_38*/
-#define ADC_IN_4		BBB_AIN4        /*P9_35*/
+#define ADC_IN_4		BBB_AIN4        /*P9_33*/
 #define ADC_IN_5		BBB_AIN5        /*P9_36*/
-#define ADC_IN_6		BBB_AIN6        /*P9_33*/
+#define ADC_IN_6		BBB_AIN6        /*P9_35*/
 
 /*LED definition*/
 #define RUN_LED			  BBB_GPIO0_7     /*P9_42*/   

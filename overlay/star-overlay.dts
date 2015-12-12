@@ -25,21 +25,42 @@
              __overlay__ {
                   star_pinctrl: star_pinctrl_pins {
 					pinctrl-single,pins = <
-						0x02C 0x37  /* P8_17	27   GPIO_IN_0   BBB_GPIO0_27 	INPUT MODE 7 - pullup - Digital input*/
-						0x038 0x37  /* P8_16	46   GPIO_IN_1   BBB_GPIO1_14 	INPUT MODE 7 - pullup - Digital input*/
-						0x03c 0x37  /* P8_15	47   GPIO_IN_2   BBB_GPIO1_15 	INPUT MODE 7 - pullup - Digital input*/
-						0x028 0x37  /* P8_14	26   GPIO_IN_3   BBB_GPIO0_26 	INPUT MODE 7 - pullup - Digital input*/
-						0x08c 0x37  /* P8_18	65   GPIO_IN_4   BBB_GPIO2_1 	INPUT MODE 7 - pullup - Digital input*/
-						0x020 0x37  /* P8_19	22   GPIO_IN_5   BBB_GPIO0_22	INPUT MODE 7 - pullup - Digital input*/
-						0x07c 0x37  /* P8_26	61   GPIO_IN_6   BBB_GPIO1_29	INPUT MODE 7 - pullup - Digital input*/
-						0x0e8 0x37  /* P8_28	88   GPIO_IN_7   BBB_GPIO2_24   INPUT MODE 7 - pullup - Digital input*/
-						0x090 0x37  /* P8_7 	66   GPIO_IN_8   BBB_GPIO2_2    INPUT MODE 7 - pullup - Digital input*/
-						0x094 0x37  /* P8_8 	67   GPIO_IN_9   BBB_GPIO2_3    INPUT MODE 7 - pullup - Digital input*/
-						0x09c 0x37  /* P8_9 	69   GPIO_IN_10  BBB_GPIO2_5    INPUT MODE 7 - pullup - Digital input*/
-						0x098 0x37  /* P8_10	68   GPIO_IN_11  BBB_GPIO2_4    INPUT MODE 7 - pullup - Digital input*/
-						0x034 0x37  /* P8_11	45   GPIO_IN_12   BBB_GPIO1_13   INPUT MODE 7 - pullup - Digital input*/
-						0x030 0x37  /* P8_12	44  GPIO_IN_13   BBB_GPIO1_12   INPUT MODE 7 - pullup - Digital input*/
-						0x024 0x37  /* P8_13	23  GPIO_IN_14   BBB_GPIO0_23   INPUT MODE 7 - pullup - Digital input*/
+						/*GPIO INPUTS*/
+
+					    0x02C 	0x37  	/* 	P8_17	27  GPIO_IN_0   	BBB_GPIO0_27 	INPUT MODE 7 - pullup - Digital input*/
+						0x038 	0x37  	/* 	P8_16	46  GPIO_IN_1   	BBB_GPIO1_14 	INPUT MODE 7 - pullup - Digital input*/
+						0x03c 	0x37  	/* 	P8_15	47  GPIO_IN_2   	BBB_GPIO1_15 	INPUT MODE 7 - pullup - Digital input*/
+						0x028 	0x37  	/* 	P8_14	26  GPIO_IN_3   	BBB_GPIO0_26 	INPUT MODE 7 - pullup - Digital input*/
+						0x08c 	0x37  	/* 	P8_18	65  GPIO_IN_4   	BBB_GPIO2_1 	INPUT MODE 7 - pullup - Digital input*/
+						0x020 	0x37  	/* 	P8_19	22  GPIO_IN_5   	BBB_GPIO0_22	INPUT MODE 7 - pullup - Digital input*/
+						0x07c 	0x37  	/* 	P8_26	61  GPIO_IN_6   	BBB_GPIO1_29	INPUT MODE 7 - pullup - Digital input*/
+						0x0e8 	0x37  	/* 	P8_28	88  GPIO_IN_7   	BBB_GPIO2_24   	INPUT MODE 7 - pullup - Digital input*/
+						0x090 	0x37  	/* 	P8_7 	66  GPIO_IN_8   	BBB_GPIO2_2    	INPUT MODE 7 - pullup - Digital input*/
+						0x094 	0x37  	/* 	P8_8 	67  GPIO_IN_9   	BBB_GPIO2_3    	INPUT MODE 7 - pullup - Digital input*/
+						0x09c 	0x37  	/* 	P8_9 	69  GPIO_IN_10  	BBB_GPIO2_5    	INPUT MODE 7 - pullup - Digital input*/
+						0x098 	0x37  	/* 	P8_10	68  GPIO_IN_11  	BBB_GPIO2_4    	INPUT MODE 7 - pullup - Digital input*/
+						0x034 	0x37  	/* 	P8_11	45  GPIO_IN_12  	BBB_GPIO1_13   	INPUT MODE 7 - pullup - Digital input*/
+						0x030 	0x37  	/* 	P8_12	44  GPIO_IN_13  	BBB_GPIO1_12   	INPUT MODE 7 - pullup - Digital input*/
+						0x024 	0x37  	/* 	P8_13	23  GPIO_IN_14  	BBB_GPIO0_23   	INPUT MODE 7 - pullup - Digital input*/	
+						
+		    			/*GPIO OUTPUTS*/                                     
+						
+						0x0B8	0x17	/*	P8_39   76  GPIO_OUT_0		BBB_GPIO2_12   OUTPUT MODE 7 - pullup - Digital output*/
+						0x0B4	0x17	/*	P8_42   75  GPIO_OUT_1		BBB_GPIO2_11   OUTPUT MODE 7 - pullup - Digital output*/
+						0x0B0	0x17	/*	P8_41   74  GPIO_OUT_2		BBB_GPIO2_10   OUTPUT MODE 7 - pullup - Digital output*/
+						0x0AC	0x17	/*	P8_44   73  GPIO_OUT_3		BBB_GPIO2_9    OUTPUT MODE 7 - pullup - Digital output*/
+						0x0A8	0x17	/*	P8_43   72  GPIO_OUT_4		BBB_GPIO2_8    OUTPUT MODE 7 - pullup - Digital output*/
+						0x0A4	0x17	/*	P8_46   71  GPIO_OUT_5		BBB_GPIO2_7    OUTPUT MODE 7 - pullup - Digital output*/
+						0x0A0	0x17	/*	P8_45   70  GPIO_OUT_6		BBB_GPIO2_6    OUTPUT MODE 7 - pullup - Digital output*/
+						0x0CC	0x17	/*	P8_34   81  GPIO_OUT_7		BBB_GPIO2_17   OUTPUT MODE 7 - pullup - Digital output*/
+						0x0D4	0x17	/*	P8_33   09  GPIO_OUT_8		BBB_GPIO0_9    OUTPUT MODE 7 - pullup - Digital output*/
+						0x0C8	0x17	/*	P8_36   80  GPIO_OUT_9		BBB_GPIO2_16   OUTPUT MODE 7 - pullup - Digital output*/
+						0x0D0	0x17	/*	P8_35   08  GPIO_OUT_10 	BBB_GPIO0_8    OUTPUT MODE 7 - pullup - Digital output*/
+						0x0C4	0x17	/*	P8_38   79  GPIO_OUT_11 	BBB_GPIO2_15   OUTPUT MODE 7 - pullup - Digital output*/
+						0x0C0	0x17	/*	P8_37   78  GPIO_OUT_12 	BBB_GPIO2_14   OUTPUT MODE 7 - pullup - Digital output*/
+						0x0BC	0x17	/*	P8_40   77  GPIO_OUT_13 	BBB_GPIO2_13   OUTPUT MODE 7 - pullup - Digital output*/
+															 
+						
 			>;
 		  };
         };

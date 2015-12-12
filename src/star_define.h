@@ -55,51 +55,51 @@
 #define GPIO_OUT_12		BBB_GPIO2_14  /*P8_37*/
 #define GPIO_OUT_13		BBB_GPIO2_13  /*P8_40*/
 
-/*ADC definition*/
-#define ADC_IN_0		BBB_AIN0        /*P9_39*/
-#define ADC_IN_1		BBB_AIN1        /*P9_40*/
-#define ADC_IN_2		BBB_AIN2        /*P9_37*/
-#define ADC_IN_3		BBB_AIN3        /*P9_38*/
-#define ADC_IN_4		BBB_AIN4        /*P9_33*/
-#define ADC_IN_5		BBB_AIN5        /*P9_36*/
-#define ADC_IN_6		BBB_AIN6        /*P9_35*/
-
-/*LED definition*/
-#define RUN_LED			BBB_GPIO3_17    /*P9_28*/  /*Muxed with SPI1_CS0*/
-#define ERROR_LED		BBB_GPIO3_19    /*P9_27*/
-
-#define USER_LED_0		BBB_GPIO2_22    /*P8_27*/
-#define USER_LED_1		BBB_GPIO2_25    /*P8_30*/
-#define USER_LED_2		BBB_GPIO2_23    /*P8_29*/ /*Mux with UART2_TXD*/
-#define USER_LED_3		BBB_GPIO0_11    /*P8_32*/ /*Mux with I2C2_SCL*/
-#define USER_LED_4		BBB_GPIO0_10    /*P8_31*/
-
-/*I2C definition*/
-#define I2C1_SCL		BBB_I2C1_SCL    /*P9_17*/
-#define I2C1_SDA		BBB_I2C1_SDA    /*P9_18*/
-  
-/*RS485 definition*/
-#define RS485_TX		BBB_UART1_TXD   /*P9_24*/
-#define RS485_RX		BBB_UART1_RXD   /*P9_26*/
-#define RS485_RW		BBB_GPIO1_17    /*P9_23*/
-
-/*RS232 definition*/
-#define RS232_TX		BBB_UART4_TXD   /*P9_13*/
-#define RS232_RX		BBB_UART4_RXD   /*P9_11*/
-
-/*Speaker definition*/
-#define SPEAKER_OUT		BBB_GPIO0_3  	/*P9_21*/ /*Muxed with UART2_TXD*/
-
-/*PWM*/
-
-#define PWM1A			BBB_EHRPWM1A   	/*P9_14*/
-#define PWM1B			BBB_EHRPWM1B	/*P9_16*/
-
-/*Reserved for future use*/
-
-#define _1C				BBB_I2C2_SDA	/*P9_20*/
-#define _1D				BBB_I2C2_SCL	/*P9_19*/
-#define _1E				BBB_UART2_RXD	/*P9_22*/
+///*ADC definition*/
+//#define ADC_IN_0		BBB_AIN0        /*P9_39*/
+//#define ADC_IN_1		BBB_AIN1        /*P9_40*/
+//#define ADC_IN_2		BBB_AIN2        /*P9_37*/
+//#define ADC_IN_3		BBB_AIN3        /*P9_38*/
+//#define ADC_IN_4		BBB_AIN4        /*P9_33*/
+//#define ADC_IN_5		BBB_AIN5        /*P9_36*/
+//#define ADC_IN_6		BBB_AIN6        /*P9_35*/
+//
+///*LED definition*/
+//#define RUN_LED			BBB_GPIO3_17    /*P9_28*/  /*Muxed with SPI1_CS0*/
+//#define ERROR_LED		BBB_GPIO3_19    /*P9_27*/
+//
+//#define USER_LED_0		BBB_GPIO2_22    /*P8_27*/
+//#define USER_LED_1		BBB_GPIO2_25    /*P8_30*/
+//#define USER_LED_2		BBB_GPIO2_23    /*P8_29*/ /*Mux with UART2_TXD*/
+//#define USER_LED_3		BBB_GPIO0_11    /*P8_32*/ /*Mux with I2C2_SCL*/
+//#define USER_LED_4		BBB_GPIO0_10    /*P8_31*/
+//
+///*I2C definition*/
+//#define I2C1_SCL		BBB_I2C1_SCL    /*P9_17*/
+//#define I2C1_SDA		BBB_I2C1_SDA    /*P9_18*/
+//
+///*RS485 definition*/
+//#define RS485_TX		BBB_UART1_TXD   /*P9_24*/
+//#define RS485_RX		BBB_UART1_RXD   /*P9_26*/
+//#define RS485_RW		BBB_GPIO1_17    /*P9_23*/
+//
+///*RS232 definition*/
+//#define RS232_TX		BBB_UART4_TXD   /*P9_13*/
+//#define RS232_RX		BBB_UART4_RXD   /*P9_11*/
+//
+///*Speaker definition*/
+//#define SPEAKER_OUT		BBB_GPIO0_3  	/*P9_21*/ /*Muxed with UART2_TXD*/
+//
+///*PWM*/
+//
+//#define PWM1A			BBB_EHRPWM1A   	/*P9_14*/
+//#define PWM1B			BBB_EHRPWM1B	/*P9_16*/
+//
+///*Reserved for future use*/
+//
+//#define _1C				BBB_I2C2_SDA	/*P9_20*/
+//#define _1D				BBB_I2C2_SCL	/*P9_19*/
+//#define _1E				BBB_UART2_RXD	/*P9_22*/
 
 
 

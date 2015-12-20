@@ -55,6 +55,7 @@
 #define GPIO_OUT_12		BBB_GPIO2_14  /*P8_37*/
 #define GPIO_OUT_13		BBB_GPIO2_13  /*P8_40*/
 
+
 ///*ADC definition*/
 //#define ADC_IN_0		BBB_AIN0        /*P9_39*/
 //#define ADC_IN_1		BBB_AIN1        /*P9_40*/

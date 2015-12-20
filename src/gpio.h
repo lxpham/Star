@@ -16,9 +16,11 @@ typedef enum GPIO_EDGE{ NONE, RISING, FALLING, BOTH } GPIO_EDGE;
 
 int gpio_write(char* path, char *filename, char *value);
 char* gpio_read(char *path, char *filename);
-int gpio_export(char *path,char *value);
-int gpio_unexport(char *path,char *value);
+char* gpio_export(char *path,int value);
+int gpio_unexport(char *path,int value);
 GPIO_VALUE gpio_get_value(char *path);
+int gpio_set_value (char *path, char *value);
 GPIO_DIRECTION gpio_get_direction(char *path);
+int gpio_set_direction(char *path, char* value);
 GPIO_EDGE gpio_get_edge(char *path);
 #endif /* __GPIO_H__ */

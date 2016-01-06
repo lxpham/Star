@@ -9,31 +9,26 @@
 	</style>
 	<script src = "/socket.io/socket.io.js" > </script>
     <script type=text/javascript src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script>
+     <script>
         var socket = io.connect();
-
-           	socket.on('show', function(data) {
+          	socket.on('show', function(data) {
 			$('#value').val(data);
-			console.log(data);
 		});
-		
 		
 		function readInput(){
             socket.emit('input', 'read');
-            socket.broadcast.emit('input', 'read');
         }
         
         function onOutput(){
             socket.emit('output', 'on');
-            socket.broadcast.emit('output', 'on');
         }
         
         function offOutput(){
             socket.emit('output', 'off');
-            socket.broadcast.emit('output', 'off');
         }
         
     </script>
+</script>
 
 </head>
 <body>
@@ -52,5 +47,6 @@
         <button type="submit" id="btn-read" class="pure-button pure-button-primary" onclick="readInput();">READ</button>
     </fieldset>
 </form>
+ 
 </body>
 </html>

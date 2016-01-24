@@ -24,7 +24,7 @@ var adcInput ="P9_36";
 
 
 function httpserver (req, res) {
-  fs.readFile('gpio-adc.html',
+  fs.readFile('gpio_adc.html',
   function (err, data) {
     if (err) {
       res.writeHead(500);

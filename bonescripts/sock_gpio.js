@@ -40,8 +40,12 @@ function httpserver (req, res) {
 
 
 io.sockets.on('connection', function (socket) {
-      socket.emit('show', b.digitalRead(input));
+    socket.on('input', function (data) { 
+        console.log(data);
+        socket.emit('show', b.digitalRead(input));
+    });
 });
+  
   
   
   io.sockets.on('connection', function (socket) {
